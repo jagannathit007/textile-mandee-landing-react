@@ -931,8 +931,10 @@ footer {
   }
   .hero_logo_top_left {
     top: 15px;
-    left: 15px;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 8px 12px;
+    margin-bottom: 20px;
   }
   .hero_logo_top_left img {
     max-width: 120px;
@@ -1068,8 +1070,10 @@ footer {
   }
   .hero_logo_top_left {
     top: 10px;
-    left: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     padding: 6px 10px;
+    margin-bottom: 20px;
   }
   .hero_logo_top_left img {
     max-width: 100px;
