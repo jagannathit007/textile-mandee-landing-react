@@ -3,6 +3,7 @@
   font-family: worksans-semibold, "work sans", sans-serif;
   overflow: hidden;
   padding-top: 66px;
+  height: 100vh;
 }
 
 .hero-video {
@@ -28,6 +29,10 @@
 .main_hero .container-fluid {
   position: relative;
   z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 .hero_logo_top_left {
   position: absolute;
