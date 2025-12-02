@@ -31,7 +31,7 @@ const Members = () => {
       setLoading(true);
       setIsFetching(true);
       const response = await axios.post(
-        "https://startupweaver.itfuturz.in/api/users/advancedSearchUsers",
+        "https://textilemandee.com/api/users/advancedSearchUsers",
         {
           search: search,
           page: currentPage,
@@ -55,7 +55,7 @@ const Members = () => {
           profession: businessName,
           fullData: user,
           image: user.userImage
-            ? `https://startupweaver.itfuturz.in/${user.userImage}`
+            ? `https://textilemandee.com/${user.userImage}`
             : "https://ia801307.us.archive.org/1/items/instagram-plain-round/instagram%20dip%20in%20hair.jpg",
         };
       });

@@ -46,7 +46,7 @@ const Home = () => {
             <div className="hero_logo_top_left">
               <img src={logo} alt="TexTile Mandee Logo" />
             </div>
-            <div className="container-fluid">
+            <div className="container-fluid position-relative">
                 <div className="hero py-2 mt-5">
                   <div className="inner_hero text-white">
                     {/* <div className="hero_logo">
